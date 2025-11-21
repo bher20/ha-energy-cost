@@ -1,0 +1,13 @@
+{
+  "domain": "ha_energy_cost",
+  "name": "HA Energy Rates",
+  "version": "0.6.0",
+  "documentation": "https://github.com/bher20/ha-energy-cost",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": [
+    "@bher20"
+  ],
+  "config_flow": true,
+  "iot_class": "cloud_polling"
+}

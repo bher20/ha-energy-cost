@@ -1,0 +1,24 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "HA Energy Rates",
+        "description": "Enter the base URL of your eRateManager backend.",
+        "data": {
+          "api_url": "API base URL"
+        }
+      },
+      "provider": {
+        "title": "Select provider",
+        "description": "Choose which utility/provider to use.",
+        "data": {
+          "provider": "Provider"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot connect to backend or provider rates.",
+      "invalid_provider": "Invalid provider selected."
+    }
+  }
+}
